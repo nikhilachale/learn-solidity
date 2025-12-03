@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 import "node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "node_modules/@openzeppelin/contracts/access/Ownable.sol";
 
-contract WhomeCoin is ERC20, Ownable {
+contract WhomeCoinT is ERC20, Ownable {
     uint8 private constant _DECIMALS = 18;
 
     constructor() ERC20("WhomeT", "WMT") {}
